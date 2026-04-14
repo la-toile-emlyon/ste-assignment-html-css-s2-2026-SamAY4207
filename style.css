@@ -1,0 +1,286 @@
+/* import de la typo */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* ------------------------------
+            RESET
+ ---------------------------------*/
+*{
+    margin: 0; /* pas de marges par défaut */
+    padding: 0; /* pas de padding par défaut */
+    box-sizing: border-box;  /* Ne change pas la taille de la boite si j'ajoute des paddings ou des broder. je garde le controle de ma boite.*/
+}
+
+/* ------------------------------
+            TEXTES
+ ---------------------------------*/
+
+.decoration-none {
+    text-decoration: none; /* retirer la ligne sous le texte */
+}
+
+.list-type-none{
+    list-style-type: none; /*retirer la puces des listes */
+}
+
+.bold{
+    font-weight: 800; /* mettre en gras */
+}
+
+.text-center{
+    text-align: center; /* centrer le texte */
+}
+
+.uppercase{
+    text-transform: uppercase; /* mettre en majuscule */
+}
+
+
+/* ------------------------------
+            LARGEURS
+ ---------------------------------*/
+
+.w100{
+    width: 100%;
+}
+
+
+.w50 {
+    width: 50%;
+}
+
+.w48{
+    width: 48%;
+}
+
+.w30 {
+    width: 30%;
+}
+
+.w25 {
+    width: 25%;
+}
+
+.w20{
+    width: 20%;
+}
+
+/* ------------------------------
+            FLEXBOX
+ ---------------------------------*/
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.align-start{
+    align-items: start;
+}
+.justify-center{
+    justify-content: center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.justify-start{
+    justify-content: start;
+}
+.columm{
+    flex-direction: column;
+}
+.gap-8{
+    gap: 8px;
+}
+
+.gap-16{
+    gap: 16px;
+}
+
+.gap-32{
+    gap: 32px;
+}
+
+/* ------------------------------
+         MARGIN & PADDING 
+ ---------------------------------*/
+
+ /* Margin */
+
+.mt-16 {
+    margin-top: 16px;
+}
+
+.mb-16{
+    margin-bottom: 16px;
+}
+
+.mt-32{
+    margin-top: 32px;
+}
+
+.mb-32{
+    margin-bottom: 32px;
+}
+
+.mt-128{
+    margin-top: 128px;
+}
+
+.mb-128{
+    margin-bottom: 128px;
+}
+
+.m-32{
+    margin: 32px;
+}
+/* padding */
+
+
+.pb-16{
+    padding-bottom: 16px;
+}
+
+.pt-16{
+    padding-top: 16px;
+}
+
+.pb-32{
+    padding-bottom: 16px;
+}
+
+.pt-32{
+    padding-top: 32px;
+}
+
+.pb-32{
+    padding-bottom: 32px;
+}
+
+.pt-128{
+    padding-top: 128px;
+}
+
+.pb-128{
+    padding-bottom: 128px;
+}
+
+.p-32{
+    padding: 32px;
+}
+
+/* ------------------------------
+            CONTAINER
+ ---------------------------------*/
+
+.container-1000{
+    max-width: 1000px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container-1200{
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container-1480{
+    max-width: 1480px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* ------------------------------
+            BOUTONS
+ ---------------------------------*/
+
+ .btn1{
+    background-color:  ;
+    border-color: 
+    border-radius: 10px;
+ }
+
+ /* ------------------------------
+            TEXTES
+ ---------------------------------*/
+
+ h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 64px;
+    color: #3E2C23;
+ }
+
+ h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 48px;
+    color: #3E2C23;
+ }
+
+ h3{
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    color: #3E2C23;
+ }
+
+ h4{
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    color: #3E2C23;
+ }
+
+ p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    color: #3E2C23;
+ }
+
+ a{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    color: #3E2C23;
+ }
+
+ li{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+ }
+
+
+
+
+  /* ------------------------------
+            LOGO
+ ---------------------------------*/
+
+ .logo{
+    width: 100px;
+ }
+ 
+ /* ------------------------------
+            BACKGROUND
+ ---------------------------------*/
+ .bg{
+    background-color: #C8A27A;
+ }
+
+
+ .block{
+    display: block;
+ }
