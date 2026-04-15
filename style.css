@@ -191,6 +191,10 @@
     padding: 32px;
 }
 
+.p-8{
+    padding: 8px;
+}
+
 .pLR-32{
     padding-left: 32px;
     padding-right: 32px;
@@ -355,10 +359,17 @@ i{
     background-color: #C8A27A;
 }
 
+html{
+    background-color: #EDDAC7;
+}
+
  .block{
     display: block;
  }
 
+ .radius45{
+    border-radius: 45px;
+ }
 
 
  /* ------------------------------
