@@ -104,6 +104,14 @@
 .justify-start{
     justify-content: start;
 }
+
+.align-end{
+    align-items: end;
+}
+
+.justify-end{
+    justify-content: end;
+}
 .columm{
     flex-direction: column;
     align-items: flex-start;
@@ -369,6 +377,14 @@ html{
 
  .radius45{
     border-radius: 45px;
+ }
+
+.radius30{
+    border-radius: 30px;
+ }
+
+ .radius15{
+    border-radius: 15px;
  }
 
 
