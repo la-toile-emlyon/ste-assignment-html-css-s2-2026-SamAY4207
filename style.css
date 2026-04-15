@@ -74,13 +74,11 @@
 .w10{
     width: 10%;
 }
-.w100px{
-    width: 100px;
-}
+
 /* ------------------------------
             FLEXBOX
  ---------------------------------*/
-
+/*Dispositions Flexs*/
 .flex {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +110,7 @@
 .justify-end{
     justify-content: end;
 }
+
 .columm{
     flex-direction: column;
     align-items: flex-start;
@@ -119,6 +118,8 @@
     padding-bottom: 16px;
     padding-top: 16%;
 }
+
+/*Gaps*/
 .gap-8{
     gap: 8px;
 }
@@ -199,6 +200,9 @@
     padding: 32px;
 }
 
+.p-16{
+    padding: 16px;
+}
 .p-8{
     padding: 8px;
 }
@@ -268,7 +272,7 @@
  /* ------------------------------
             TEXTES
  ---------------------------------*/
-
+/* Familles */
  h1{
     font-family: "Pacifico", cursive;
     font-weight: 200px;
@@ -337,13 +341,14 @@ input{
   transition: background-color 0.2s ease-in-out;
 }
 
-.size-64{
-    font-size: 64px;
-}
-
 i{
     font-size: 48px;
     text-decoration: none;
+}
+
+/*Autres*/
+.size-64{
+    font-size: 64px;
 }
 
 .text-marron{
@@ -360,21 +365,23 @@ i{
  /* ------------------------------
             BACKGROUND
  ---------------------------------*/
+ /*Les fonds*/
  .bg{
     background-color: #EDDAC7;
  }
 .bg2{
     background-color: #C8A27A;
 }
-
+/*Corps de la page*/
 html{
     background-color: #EDDAC7;
 }
-
+/*Éléments récalsitrants*/
  .block{
     display: block;
  }
 
+ /*Les radius*/
  .radius45{
     border-radius: 45px;
  }
@@ -391,7 +398,7 @@ html{
  /* ------------------------------
             IMAGE
  ---------------------------------*/
-
+/* Crop Images Portrait vers Paysage*/
  .img-service{
     width: 100%;
     height: 300px;
@@ -435,7 +442,7 @@ html{
   /* ------------------------------
             POSITION
  ---------------------------------*/
-
+/*Par défaut*/
  .fixed{
     position: fixed;
     top: 0;
@@ -448,6 +455,19 @@ html{
     top: 0;
  }
 
+ .relative{
+    position: relative;
+    left: 0;
+    top: 0;
+ }
+
+ .absolute{
+    position: absolute;
+    left: 0;
+    top: 0;
+ }
+
+ /*Spéciales (fleurs)*/
  .stick-flow1{
     position: fixed;
     top: 300px;
