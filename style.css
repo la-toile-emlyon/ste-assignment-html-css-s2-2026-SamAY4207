@@ -1,7 +1,5 @@
 /* import de la typo */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap');
 
 /* ------------------------------
             RESET
@@ -45,6 +43,9 @@
     width: 100%;
 }
 
+.w75 {
+    width: 75%;
+}
 
 .w50 {
     width: 50%;
@@ -66,6 +67,9 @@
     width: 20%;
 }
 
+.w10{
+    width: 10%;
+}
 /* ------------------------------
             FLEXBOX
  ---------------------------------*/
@@ -95,6 +99,10 @@
 }
 .columm{
     flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-bottom: 16px;
+    padding-top: 16%;
 }
 .gap-8{
     gap: 8px;
@@ -176,6 +184,11 @@
     padding: 32px;
 }
 
+.pLR-32{
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
 /* ------------------------------
             CONTAINER
  ---------------------------------*/
@@ -212,75 +225,123 @@
  ---------------------------------*/
 
  .btn1{
-    background-color:  ;
-    border-color: 
+    background-color: #3E2C23 ;
+    color: #C8A27A;
     border-radius: 10px;
+    padding: 10px 10px;
+    margin: auto 5px;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
  }
+
+ .btn2{
+    background-color: #C8A27A ;
+    color: #3E2C23;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin: 16px 8px;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+ } 
 
  /* ------------------------------
             TEXTES
  ---------------------------------*/
 
  h1{
-    font-family: "Montserrat", sans-serif;
+    font-family: "Pacifico", cursive;
+    font-weight: 200px;
     font-size: 64px;
     color: #3E2C23;
+    margin-top: 32px;
  }
 
  h2{
-    font-family: "Montserrat", sans-serif;
+    font-family: "Pacifico", cursive;
+    font-weight: 200px;
     font-size: 48px;
     color: #3E2C23;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    margin-top: 32px;
  }
 
  h3{
     font-family: "Montserrat", sans-serif;
-    font-size: 32px;
+    font-size: 28px;
     color: #3E2C23;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    font-weight: 400;
  }
 
  h4{
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
     color: #3E2C23;
+    padding-bottom: 12px;
+    padding-top: 12px;
  }
 
  p{
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
-    color: #3E2C23;
+    color: #776861;
+    padding-bottom: 10px;
  }
 
  a{
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
     color: #3E2C23;
+    padding-bottom: 10px;
+    text-decoration: none;
  }
 
  li{
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
+    padding-bottom: 10px;
  }
 
+input{
+    background-color: #776861;
+  color: #EDDAC7;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin: 8px 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
 
+.size-64{
+    font-size: 64px;
+}
 
-
+i{
+    font-size: 48px;
+    text-decoration: none;
+}
   /* ------------------------------
             LOGO
  ---------------------------------*/
 
  .logo{
-    width: 100px;
+    width: 256px;
  }
  
  /* ------------------------------
             BACKGROUND
  ---------------------------------*/
  .bg{
-    background-color: #e6e0db;
+    background-color: #EDDAC7;
  }
 .bg2{
-    background-color: #e9c8a7;
+    background-color: #C8A27A;
 }
 
  .block{
@@ -288,4 +349,61 @@
  }
 
 
- .list-type-
+
+ /* ------------------------------
+            IMAGE
+ ---------------------------------*/
+
+ .img-service{
+    width: 100%;
+    height: 300px;
+    object-fit: cover; 
+    object-position: center;
+ } 
+ .img-service2{
+    width: 100%;
+    height: 450px;
+    object-fit: cover; 
+    object-position: 0 ;
+    padding-top: 32px;
+    padding-bottom: 32px;
+ } 
+ .img-service3{
+    width: 100%;
+    height: 750px;
+    object-fit: cover; 
+    object-position: 0 ;
+    padding-top: 32px;
+    padding-bottom: 32px;
+ }
+ 
+ .img-service4{
+    width: 90%;
+    height: 600px;
+    object-fit: cover; 
+    object-position: 0 ;
+    padding-top: 64px;
+    padding-bottom: 64px;
+ }
+
+.img-service5{
+    width: 100%;
+    height: 400px;
+    object-fit: cover; 
+    object-position: 0 ;
+    display: block;
+ } 
+
+  /* ------------------------------
+            POSITION
+ ---------------------------------*/
+
+ .fixed{
+    position: fixed;
+ }
+
+ .sticky{
+    position: sticky;
+ }
+
+
