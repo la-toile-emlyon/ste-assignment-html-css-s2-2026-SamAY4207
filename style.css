@@ -67,8 +67,15 @@
     width: 20%;
 }
 
+.w15{
+    width: 15%;
+}
+
 .w10{
     width: 10%;
+}
+.w100px{
+    width: 100px;
 }
 /* ------------------------------
             FLEXBOX
@@ -307,8 +314,8 @@
  }
 
 input{
-    background-color: #776861;
-  color: #EDDAC7;
+    background-color: #EDDAC7;
+  color: #776861;
   border: none;
   border-radius: 5px;
   padding: 10px 15px;
@@ -400,10 +407,26 @@ i{
 
  .fixed{
     position: fixed;
+    top: 0;
+    left: 0;
  }
 
  .sticky{
     position: sticky;
+    left: 0;
+    top: 0;
  }
 
-
+ .stick-flow1{
+    position: fixed;
+    top: 300px;
+    left: -40px;
+    z-index: -10;
+ }
+ 
+ .stick-flow2{
+    position: fixed;
+    top: 700px;
+    right: -80px;
+    z-index: 1;
+ }
