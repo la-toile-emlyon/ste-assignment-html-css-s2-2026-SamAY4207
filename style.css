@@ -1,5 +1,5 @@
 /* import de la typo */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* ------------------------------
             RESET
@@ -28,6 +28,10 @@
 
 .text-center{
     text-align: center; /* centrer le texte */
+}
+
+.text-end{
+    text-align: end;
 }
 
 .uppercase{
@@ -274,7 +278,7 @@
  ---------------------------------*/
 /* Familles */
  h1{
-    font-family: "Pacifico", cursive;
+    font-family: "Great Vibes", cursive;
     font-weight: 200px;
     font-size: 64px;
     color: #3E2C23;
@@ -282,9 +286,9 @@
  }
 
  h2{
-    font-family: "Pacifico", cursive;
+    font-family: "Great Vibes", cursive;
     font-weight: 200px;
-    font-size: 48px;
+    font-size: 40px;
     color: #3E2C23;
     padding-bottom: 16px;
     padding-top: 16px;
@@ -293,7 +297,7 @@
 
  h3{
     font-family: "Montserrat", sans-serif;
-    font-size: 28px;
+    font-size: 24px;
     color: #3E2C23;
     padding-bottom: 16px;
     padding-top: 16px;
@@ -302,7 +306,7 @@
 
  h4{
     font-family: "Montserrat", sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     color: #3E2C23;
     padding-bottom: 12px;
     padding-top: 12px;
@@ -310,14 +314,14 @@
 
  p{
     font-family: "Montserrat", sans-serif;
-    font-size: 20px;
-    color: #776861;
+    font-size: 16px;
+    color: #3E2C23;
     padding-bottom: 10px;
  }
 
  a{
     font-family: "Montserrat", sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     color: #3E2C23;
     padding-bottom: 10px;
     text-decoration: none;
@@ -325,13 +329,13 @@
 
  li{
     font-family: "Montserrat", sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     padding-bottom: 10px;
  }
 
 input{
     background-color: #EDDAC7;
-  color: #776861;
+  color: #3E2C23;
   border: none;
   border-radius: 5px;
   padding: 10px 15px;
@@ -401,9 +405,9 @@ html{
 /* Crop Images Portrait vers Paysage*/
  .img-service{
     width: 100%;
-    height: 300px;
+    height: 232px;
     object-fit: cover; 
-    object-position: center;
+    object-position: 0 35%;
  } 
  .img-service2{
     width: 100%;
@@ -433,9 +437,9 @@ html{
 
 .img-service5{
     width: 100%;
-    height: 400px;
+    height: 360px;
     object-fit: cover; 
-    object-position: 0 ;
+    object-position: 0 -75px;
     display: block;
  } 
 
